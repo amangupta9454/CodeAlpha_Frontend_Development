@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="image.css">
+</head>
+<body>
+   
+    <div class="full-img" id="fullImgBox">
+        <span onclick="closeFullImg()">X</span>
+        <img src="IMAGE/a1.jpg" id="fullImg">
+        <div id="imageCounter"></div> 
+    </div>
+    <div class="img-gallery">
+        <img src="IMAGE/a1.jpg" onclick="openFullImg(this.src,0)">
+        <img src="IMAGE/a2.jpg" onclick="openFullImg(this.src,1)">
+        <img src="IMAGE/a3.jpg" onclick="openFullImg(this.src,2)">
+        <img src="IMAGE/p1.jfif" onclick="openFullImg(this.src,3)">
+        <img src="IMAGE/p2.jfif" onclick="openFullImg(this.src,4)">
+        <img src="IMAGE/a4.jpg" onclick="openFullImg(this.src,5)">
+        <img src="IMAGE/a5.jpg" onclick="openFullImg(this.src, 6)">
+        <img src="IMAGE/a6.jpg" onclick="openFullImg(this.src, 7)">
+    </div>
+    <script src="image.js"></script>
+</body>
+</html>
+
+
+
+
+
